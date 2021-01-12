@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<html lang="en">
+<meta charset"utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home page</title>
+
+<style>
+
+* {
+box-sizing: border-box;
+}
+
+h1 {
+font-family: georgia;
+font-size: 42px;
+}
+
+p {
+font-family: sans-serif;
+font-size: 1.15em;
+}
+
+header
+{
+background-color: #434343;
+height: 120px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav {
+background-color: #acacac;
+margin: auto;
+width: 960px;
+max-width: 90%;
+padding-left: 5%;
+padding-top: 30px;
+height: 60px;
+display: inline;
+}
+
+nav a
+{
+color: #c2f3a2;
+padding-right:15px;
+}
+
+body {
+background-color: #f5f5fd;
+}
+
+main {
+margin:auto;
+margin-top:30px;
+height:150vh;
+width: 960px;
+max-width: 90%;
+background-color: white;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 15px
+}
+
+#row-2 {
+}
+
+
+#row-2 p {
+font-family: sans-serif;
+font-size: 0.9em;
+}
+
+.cols-2 { 
+float: left;
+width: 50%;
+padding: 15px;
+}
+
+#sec2 {
+background-color: #d1e1fa;
+height: 150px;
+overflow: scroll;
+overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#sec3 {
+background-color: #d3f1a2;
+height: 60px;
+}
+
+#sec4 {
+background-color: #d3c1dd;
+height: 90px;
+overflow: scroll;
+overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#">Item 1</a>
+<a href="#">Item 2</a>
+<a href="#">Item 3</a>
+<a href="#">Item 4</a>
+</nav>
+</header>
+
+<main>
+	<div class="cols-1" id="row-1">
+	<h1 align="center">Hello</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <a href="#">aliquip</a> ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	</div>
+
+	<div id="row-2">
+		<div class="cols-2" id="sec2">
+		<h3 align="center">Lorem ipsum dolor sit amet</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <a href="#">commodo consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+		</div>
+
+		<div class="cols-2" id="sec3">
+		<p>hello</p>
+		</div>
+
+		<div class="cols-2" id="sec4">
+		<p>hello</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		</div>
+
+	</div>
+
+
+
+</main>
+
+</body>
+
+</html>
